@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lng="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Strangers or Not</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source Sans Pro">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <link rel="stylesheet" href="landing_page.css">
+    </head>
+    <body>
+        <div class="navbar">
+            <nav>
+                <!-- Strangers or Not logo -->
+            </nav>
+            <nav>
+                <!-- Learn to Play, Play Game-->
+            </nav>
+        </div>
+        <button onclick="darkModeFunction()">Toggle dark mode</button>
+        <button onclick="colorblindnessFunction()">Toggle colorblindness mode</button>
+        <div></div>
+        <br>
+        <div class="card w-75 text-center" style="border-radius: 50px;" id="landingPageCard">
+            <div class="card-body">
+                <h5 class="card-title">STRANGERS OR NOT</h5>
+                <br><br>
+                <h6 class="card-subtitle">A GAME TO CREATE HUMAN CONNECTION</h6>
+                <br><br><br>
+                <a href="#learnToPlaySection" class="btn">Learn to Play</a>
+                <a href="#" class="btn">Play Game</a>
+            </div>
+        </div>
+        <div id="space"></div>
+        <div id="learnToPlaySection">
+            <h1>About The Game</h1>
+            <div class="card w-50 text-center" style="border-radius: 50px;">
+                <div class="card-body">
+                    <h4>Strangers or Not is a game based off of the popular card game, We're Not Really Strangers. 
+                        It is a purpose driven card game and movement all about empowering meaningful connections.
+                    </h4>
+                </div>
+                <h7>STRANGERS OR NOT</h7>
+                <br>
+            </div>
+            <div class="card w-50 text-center" style="border-radius: 50px;">
+                <div class="card-body">
+                    <h4>
+                        Three carefully crafted levels of questions and wildcards that allow you to deepen your 
+                        existing relationship and create new ones.</h4>
+                </div>
+                <h7>STRANGERS OR NOT</h7>
+                <br>
+            </div>
+            <br>
+            <h1>How to Play</h1>
+            <div class="card w-50 text-center" style="border-radius: 50px;">
+                <div class="card-body">
+                    <h4>Organize a virtual call with whomever you'd like to play with.
+                        One player can have the questions up for the group.
+                    </h4>
+                </div>
+                <h7>STRANGERS OR NOT</h7>
+                <br>
+            </div>
+            <div class="card w-50 text-center" style="border-radius: 50px;">
+                <div class="card-body">
+                    <h4>
+                        Have the one player choose how many cards they want per round. 
+                        Then, the player will have the card in play shown on their screen, so they can 
+                        read the question card to the rest of the group.
+                    </h4>
+                </div>
+                <h7>STRANGERS OR NOT</h7>
+                <br>
+            </div>
+            <div class="card w-50 text-center" style="border-radius: 50px;">
+                <div class="card-body">
+                    <h4>
+                        Go around letting each player answer the 
+                        question before moving on. Use the arrows to move on to the next question or to look
+                        back at previous questions.
+                    </h4>
+                </div>
+                <h7>STRANGERS OR NOT</h7>
+                <br>
+            </div>
+            <div class="card w-50 text-center" style="border-radius: 50px;">
+                <div class="card-body">
+                    <h4>Level 1 cards are Perception questions. This level is about gaining perspective on what
+                        first impressions we give off and challenging the asumptions we make about others.
+                    </h4>
+                </div>
+                <h7>STRANGERS OR NOT</h7>
+                <br>
+            </div>
+            <div class="card w-50 text-center" style="border-radius: 50px;">
+                <div class="card-body">
+                    <h4>Level 2 cards are Connection questions. This level is about asking the rarely asked questions 
+                        and connecting on a deeper level.
+                    </h4>
+                </div>
+                <h7>STRANGERS OR NOT</h7>
+                <br>
+            </div>
+            <div class="card w-50 text-center" style="border-radius: 50px;">
+                <div class="card-body">
+                    <h4>Level 3 are Reflection questions. This level is the time to reflect on your game experience.
+                    </h4>
+                </div>
+                <h7>STRANGERS OR NOT</h7>
+                <br>
+            </div>
+            <div class="card w-50 text-center" style="border-radius: 50px;">
+                <div class="card-body">
+                    <h4>At the end of the game, there will be a final card. Send your players a message. Open only once you all have left the call. 
+                    </h4>
+                </div>
+                <h7>STRANGERS OR NOT</h7>
+                <br>
+            </div>
+        </div>
+        <br>
+        <footer></footer>
+    </body>
+    <script>
+        function darkModeFunction(){
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+        }
+        function colorblindnessFunction(){
+            var element1 = document.getElementsByTagName("h5");
+            var element2 = document.getElementsByTagName("h6");
+            var element3 = document.getElementsByTagName("h4");
+            var element4 = document.getElementsByTagName("h1");
+            var element5 = document.getElementsByTagName("a");
+            var element6 = document.getElementsByTagName("h7");
+            var elements = [element1,element2,element3,element4,element5,element6];
+            var i;
+            var j;
+            for (i = 0; i < 6; i++) {
+                var element = elements[i];
+                for(j = 0;j < element.length;j++){
+                    if(element[j].style.color === "black"){
+                        element[j].style.color = "#bf0413";
+                    }
+                    else{
+                        element[j].style.color = "black";
+                    }
+                }
+            }
+            var k;
+            var element7 = document.getElementsByClassName("btn");
+            for(k = 0;k < element7.length;k++){
+                if(element7[k].style.backgroundColor === "black"){
+                    element7[k].style.backgroundColor = "#bf0413";
+                    element7[k].style.color = "white";
+                }
+                else{
+                    element7[k].style.color = "white";
+                    element7[k].style.backgroundColor = "black";
+                }
+            }
+        }
+    </script>
+</html>
