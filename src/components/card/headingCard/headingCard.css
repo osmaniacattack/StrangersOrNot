@@ -1,0 +1,183 @@
+@media (max-width: 34.4em) {
+    .headingCard{
+        background-color: #bf0413 !important;
+        color:white !important;
+        max-width: 80vw !important;
+        height: 50vh !important;
+        max-height: 50vh !important;
+        border-radius: 50px !important;
+        margin: 2% !important;
+        text-transform: uppercase !important;
+        text-align: center !important;
+    }
+    
+    .textSpace{
+        line-height: 22rem !important;
+        font-weight: bold !important;
+        font-size: 20px !important;
+    }
+    
+    .peepThree{
+        max-width: 35% !important;
+        margin-top: 7vh !important;
+        margin-left: -48vw !important;
+        position: absolute !important;
+        z-index: 100 !important;
+    }
+    
+    .peepFour{
+        max-width: 30% !important;
+        margin-top: -40vh !important;
+        margin-left: 14vw !important;
+        position: absolute !important;
+        z-index: 100 !important;
+    }
+}
+
+/* Small */
+@media (min-width: 35.5em) {
+    .headingCard{
+        background-color: #bf0413 !important;
+        color:white !important;
+        max-width: 80vw !important;
+        height: 50vh !important;
+        max-height: 50vh !important;
+        border-radius: 50px !important;
+        margin: 2% !important;
+        text-transform: uppercase !important;
+        text-align: center !important;
+    }
+    
+    .textSpace{
+        line-height: 22rem !important;
+        font-weight: bold !important;
+        font-size: 30px !important;
+    }
+    
+    .peepThree{
+        max-width: 35% !important;
+        margin-top: 7vh !important;
+        margin-left: -48vw !important;
+        position: absolute !important;
+        z-index: 100 !important;
+    }
+    
+    .peepFour{
+        max-width: 30% !important;
+        margin-top: -40vh !important;
+        margin-left: 14vw !important;
+        position: absolute !important;
+        z-index: 100 !important;
+    }
+ }
+
+ /* Medium */
+@media (min-width: 48em) {
+    .headingCard{
+        background-color: #bf0413 !important;
+        color:white !important;
+        max-width: 80vw !important;
+        height: 50vh !important;
+        max-height: 50vh !important;
+        border-radius: 50px !important;
+        margin: 2% !important;
+        text-transform: uppercase !important;
+        text-align: center !important;
+    }
+    
+    .textSpace{
+        line-height: 22rem !important;
+        font-weight: bold !important;
+        font-size: 45px !important;
+    }
+    
+    .peepThree{
+        max-width: 25% !important;
+        margin-top: 5vh !important;
+        margin-left: -45vw !important;
+        position: absolute !important;
+        z-index: 100 !important;
+    }
+    
+    .peepFour{
+        max-width: 22% !important;
+        margin-top: -46vh !important;
+        margin-left: 16vw !important;
+        position: absolute !important;
+        z-index: 100 !important;
+    }
+ }
+
+ /* Large */
+ @media (min-width: 64em) {
+    .headingCard{
+        background-color: #bf0413 !important;
+        color:white !important;
+        max-width: 80vw !important;
+        height: 50vh !important;
+        max-height: 50vh !important;
+        border-radius: 50px !important;
+        margin: 2% !important;
+        text-transform: uppercase !important;
+        text-align: center !important;
+    }
+    
+    .textSpace{
+        line-height: 22rem !important;
+        font-weight: bold !important;
+        font-size: 48px !important;
+    }
+    
+    .peepThree{
+        max-width: 23% !important;
+        margin-top: 3vh !important;
+        margin-left: -44vw !important;
+        position: absolute !important;
+        z-index: 100 !important;
+    }
+    
+    .peepFour{
+        max-width: 20% !important;
+        margin-top: -44vh !important;
+        margin-left: 18vw !important;
+        position: absolute !important;
+        z-index: 100 !important;
+    }
+ }
+
+  /* X-Large */
+  @media (min-width: 80em) {
+    .headingCard{
+        background-color: #bf0413 !important;
+        color:white !important;
+        max-width: 80vw !important;
+        height: 50vh !important;
+        max-height: 50vh !important;
+        border-radius: 50px !important;
+        margin: 2% !important;
+        text-transform: uppercase !important;
+        text-align: center !important;
+    }
+    
+    .textSpace{
+        line-height: 22rem !important;
+        font-weight: bold !important;
+        font-size: 48px !important;
+    }
+    
+    .peepThree{
+        max-width: 22% !important;
+        margin-top: -1vh !important;
+        margin-left: -40vw !important;
+        position: absolute !important;
+        z-index: 100 !important;
+    }
+    
+    .peepFour{
+        max-width: 18% !important;
+        margin-top: -46vh !important;
+        margin-left: 18vw !important;
+        position: absolute !important;
+        z-index: 100 !important;
+    }
+ }

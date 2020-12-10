@@ -1,0 +1,107 @@
+@media (max-width: 34.4em) {
+    .numberStyling{
+        margin-top: 6rem !important;
+        margin-left: 20vw !important;
+        font-weight: bold !important;
+        font-size: 20px !important;
+    }
+
+    .gameStyling{
+        margin-left: 22vw !important;
+        max-width: 60% !important;
+    }
+
+    .prevNext{
+        color: white !important;
+        background-color: #bf0413 !important;
+        font-weight: bold !important;
+        border-radius: 20px !important;
+        width: 100px !important;
+        height: 70px !important;
+    }
+
+    .prevButton{
+        float:left !important;
+        margin: 20px 0 0 20px !important;
+    }
+
+    .nextButton{
+        float:right !important;
+        margin: 20px 20px 0 0 !important;
+    }  
+}
+
+/* Small */
+@media (min-width: 35.5em) { 
+    .numberStyling{
+        margin-top: 6rem !important;
+        margin-left: 23vw !important;
+        font-weight: bold !important;
+        font-size: 20px !important;
+    }
+
+    .gameStyling{
+        margin-left: 5vw !important;
+        max-width: 60% !important;
+    }
+
+    .prevNext{
+        color: white !important;
+        background-color: #bf0413 !important;
+        font-weight: bold !important;
+        border-radius: 20px !important;
+        width: 100px !important;
+        height: 70px !important;
+    }
+
+    .prevButton{
+        float:left !important;
+        margin: 20px 0 0 52px !important;
+    }
+
+    .nextButton{
+        float:right !important;
+        margin: 20px 52px 0 0 !important;
+    }  
+}
+  
+/* Medium */
+@media (min-width: 48em) {
+    .numberStyling{
+        margin-top: 4rem !important;
+        margin-left: 26.5vw !important;
+        font-weight: bold !important;
+        font-size: 20px !important;
+    }
+
+    .gameStyling{
+        margin-left: 5vw !important;
+        max-width: 60% !important;
+        margin-top: -2.5vw !important;
+    }
+
+    .prevNext{
+        color: white !important;
+        background-color: #bf0413 !important;
+        font-weight: bold !important;
+        border-radius: 20px !important;
+        width: 100px !important;
+        height: 70px !important;
+    }
+
+    .prevButton{
+        float:left !important;
+        margin: 0 0 0 52px !important;
+    }
+
+    .nextButton{
+        float:right !important;
+        margin: 0 52px 0 0 !important;
+    }  
+  }
+  
+/* Large */
+@media (min-width: 64em) {  }
+  
+/* X-Large */
+@media (min-width: 80em) {  }

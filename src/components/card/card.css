@@ -1,0 +1,121 @@
+@media (max-width: 34.4em) {
+    .paper{
+        max-width: 40vw !important;
+        height: 50vh !important;
+        max-height: 50vh !important;
+        color: #bf0413 !important;
+        border-radius: 50px !important;
+        margin: 2% !important;
+        text-transform: uppercase !important;
+    }
+    
+    .cardLevel{
+        font-weight: 700 !important;
+        margin: 3rem 0 0 0 !important;
+        font-size: 1rem !important;
+    }
+    
+    .cardQuestion{
+        font-weight: 700 !important;
+        margin: 2rem 2.5rem 0 2.5rem !important;
+        font-size: .8rem !important;
+    }
+    
+    .cardBranding{
+        font-weight: 700 !important;
+        font-size: 1rem !important;
+        margin: 2rem 0 0 0 !important;
+    }   
+}
+/* Small */
+@media (min-width: 35.5em) {
+    .paper{
+        max-width: 40vw !important;
+        height: 50vh !important;
+        max-height: 50vh !important;
+        color: #bf0413 !important;
+        border-radius: 50px !important;
+        margin: 2% !important;
+        text-transform: uppercase !important;
+    }
+    
+    .cardLevel{
+        font-weight: 700 !important;
+        margin: 3rem 0 0 0 !important;
+        font-size: 1rem !important;
+    }
+    
+    .cardQuestion{
+        font-weight: 700 !important;
+        margin: 2rem 2.5rem 0 2.5rem !important;
+        font-size: 1rem !important;
+    }
+    
+    .cardBranding{
+        font-weight: 700 !important;
+        font-size: 1rem !important;
+        margin: 2rem 0 0 0 !important;
+    }    
+ }
+  
+/* Medium */
+@media (min-width: 48em) {
+    .paper{
+        max-width: 40vw !important;
+        height: 50vh !important;
+        max-height: 50vh !important;
+        color: #bf0413 !important;
+        border-radius: 50px !important;
+        margin: 2% !important;
+        text-transform: uppercase !important;
+    }
+    
+    .cardLevel{
+        font-weight: 700 !important;
+        margin: 3rem 0 0 0 !important;
+        font-size: 1rem !important;
+    }
+    
+    .cardQuestion{
+        font-weight: 700 !important;
+        margin: 2rem 2.5rem 0 2.5rem !important;
+        font-size: 1.2rem !important;
+    }
+    
+    .cardBranding{
+        font-weight: 700 !important;
+        font-size: 1rem !important;
+        margin: 2rem 0 0 0 !important;
+    }    
+ }
+  
+/* Large */
+@media (min-width: 64em) { 
+    .paper{
+        max-width: 40vw !important;
+        height: 50vh !important;
+        max-height: 50vh !important;
+        color: #bf0413 !important;
+        border-radius: 50px !important;
+        margin: 2% !important;
+        text-transform: uppercase !important;
+    }
+    
+    .cardLevel{
+        font-weight: 700 !important;
+        margin: 3rem 0 0 0 !important;
+        font-size: 1.5rem !important;
+    }
+    
+    .cardQuestion{
+        font-weight: 700 !important;
+        margin: 3rem 2.5rem 0 2.5rem !important;
+        font-size: 1.7rem !important;
+    }
+    
+    .cardBranding{
+        font-weight: 700 !important;
+        font-size: 1.5rem !important;
+        margin: 3rem 0 0 0 !important;
+    }    
+ }

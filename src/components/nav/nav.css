@@ -1,0 +1,106 @@
+@media (max-width: 34.4em) {
+    .nav{
+        background-color: #bf0413 !important;
+        width: 100% !important;
+    }
+    
+    .title{
+        font-weight: bold !important;
+        font-size: 1rem !important;
+    }
+    
+    .toggleButtons{
+        color: white !important;
+        margin: 1em 20px 1em -1em !important;
+        font-weight: bold !important;
+        width: 200px !important;
+    }
+}
+
+/* Small */
+@media (min-width: 35.5em) { 
+    .nav{
+        background-color: #bf0413 !important;
+        width: 100% !important;
+    }
+    
+    .title{
+        font-weight: bold !important;
+        font-size: 1rem !important;
+    }
+    
+    .toggleButtons{
+        color: white !important;
+        margin: .1em !important;
+        font-weight: bold !important;
+        width: 250px !important;
+    }
+ }
+  
+/* Medium */
+@media (min-width: 48em) { 
+    .nav{
+        background-color: #bf0413 !important;
+        width: 100% !important;
+    }
+    
+    .title{
+        font-weight: bold !important;
+    }
+    
+    .toggleButtons{
+        color: white !important;
+        margin: .5em !important;
+        font-weight: bold !important;
+    }
+    
+    .buttonSpan{
+        margin-left: 5% !important;
+    }
+}
+  
+/* Large */
+@media (min-width: 64em) {
+    .nav{
+        background-color: #bf0413 !important;
+        width: 100% !important;
+    }
+    
+    .title{
+        font-weight: bold !important;
+        margin-left: 5% !important;
+    }
+    
+    .toggleButtons{
+        color: white !important;
+        margin: 1em !important;
+        font-weight: bold !important;
+    }
+    
+    .buttonSpan{
+        margin-left: 25% !important;
+    }
+}
+
+/* X-Large */
+@media (min-width: 80em) { 
+    .nav{
+        background-color: #bf0413 !important;
+        width: 100% !important;
+    }
+    
+    .title{
+        font-weight: bold !important;
+        margin-left: 5% !important;
+    }
+    
+    .toggleButtons{
+        color: white !important;
+        margin: 1em !important;
+        font-weight: bold !important;
+    }
+    
+    .buttonSpan{
+        margin-left: 40% !important;
+    }
+}

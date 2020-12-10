@@ -1,0 +1,210 @@
+@media (max-width: 34.4em) {
+    .landingButtons{
+        color: white !important;
+        background-color: #bf0413 !important;
+        font-weight: bold !important;
+        border-radius: 16px !important;
+        margin-top: -3rem !important;
+    }
+    
+    .paper{
+        max-width: 90vw !important;
+        height: 50vh !important;
+        max-height: 50vh !important;
+        color: #bf0413 !important;
+        border-radius: 50px !important;
+        margin: 1% !important;
+        text-transform: uppercase !important;
+        z-index: 0 !important;
+    }
+    
+    .cardTitle{
+        font-weight: 700 !important;
+        font-size: 20px !important;
+        margin: 3rem 0 0 0 !important;
+    }
+    
+    .cardDescription{
+        font-weight: 700 !important;
+        font-size: 10px !important;
+        margin: 5rem !important;
+    }
+    
+    .peepOne{
+        max-width: 28% !important;
+        margin-top: 15vh !important;
+        margin-left: -13vw !important;
+        position: absolute !important;
+        z-index: 100 !important;
+    }
+    
+    .peepTwo{
+        max-width: 22% !important;
+        margin-top: -27vh !important;
+        margin-left: 43vw !important;
+        position: absolute !important;
+        z-index: 100 !important;
+    }
+}
+
+/* Small */
+@media (min-width: 35.5em) {
+    .landingButtons{
+        color: white !important;
+        background-color: #bf0413 !important;
+        font-weight: bold !important;
+        border-radius: 16px !important;
+        margin-top: -3rem !important;
+    }
+    
+    .rightButton{
+        margin-left: 13% !important;
+    }
+    
+    .paper{
+        max-width: 80vw !important;
+        height: 50vh !important;
+        max-height: 50vh !important;
+        color: #bf0413 !important;
+        border-radius: 50px !important;
+        margin: 2% !important;
+        text-transform: uppercase !important;
+        z-index: 0 !important;
+    }
+    
+    .cardTitle{
+        font-weight: 700 !important;
+        font-size: 30px !important;
+        margin: 3rem 0 0 0 !important;
+    }
+    
+    .cardDescription{
+        font-weight: 700 !important;
+        font-size: 15px !important;
+        margin: 5rem !important;
+    }
+    
+    .peepOne{
+        max-width: 28% !important;
+        margin-top: 15vh !important;
+        margin-left: -13vw !important;
+        position: absolute !important;
+        z-index: 100 !important;
+    }
+    
+    .peepTwo{
+        max-width: 22% !important;
+        margin-top: -33vh !important;
+        margin-left: 43vw !important;
+        position: absolute !important;
+        z-index: 100 !important;
+    }
+}
+
+/* Medium */
+@media (min-width: 48em) {
+    .landingButtons{
+        color: white !important;
+        background-color: #bf0413 !important;
+        font-weight: bold !important;
+        border-radius: 16px !important;
+        margin-top: -3rem !important;
+    }
+    
+    .rightButton{
+        margin-left: 22% !important;
+    }
+    
+    .paper{
+        max-width: 80vw !important;
+        height: 50vh !important;
+        max-height: 50vh !important;
+        color: #bf0413 !important;
+        border-radius: 50px !important;
+        margin: 2% !important;
+        text-transform: uppercase !important;
+        z-index: 0 !important;
+    }
+    
+    .cardTitle{
+        font-weight: 700 !important;
+        font-size: 40px !important;
+        margin: 3rem 0 -.5rem 0 !important;
+    }
+    
+    .cardDescription{
+        font-weight: 700 !important;
+        font-size: 20px !important;
+        margin: 5rem !important;
+    }
+    
+    .peepOne{
+        max-width: 24% !important;
+        margin-top: 12vh !important;
+        margin-left: -11vw !important;
+        position: absolute !important;
+        z-index: 100 !important;
+    }
+    
+    .peepTwo{
+        max-width: 20% !important;
+        margin-top: -40vh !important;
+        margin-left: 46vw !important;
+        position: absolute !important;
+        z-index: 100 !important;
+    }
+}
+
+/* Large */
+@media (min-width: 64em) {
+    .landingButtons{
+        color: white !important;
+        background-color: #bf0413 !important;
+        font-weight: bold !important;
+        border-radius: 16px !important;
+        margin-top: 1rem !important;
+    }
+    
+    .rightButton{
+        margin-left: 28% !important;
+    }
+    
+    .paper{
+        max-width: 80vw !important;
+        height: 60vh !important;
+        max-height: 60vh !important;
+        color: #bf0413 !important;
+        border-radius: 50px !important;
+        margin: 2% !important;
+        text-transform: uppercase !important;
+        z-index: 0 !important;
+    }
+    
+    .cardTitle{
+        font-weight: 700 !important;
+        font-size: 50px !important;
+        margin: 3rem 0 -.5rem 0 !important;
+    }
+    
+    .cardDescription{
+        font-weight: 700 !important;
+        font-size: 25px !important;
+        margin: 5rem !important;
+    }
+    
+    .peepOne{
+        max-width: 20% !important;
+        margin-top: 9vh !important;
+        margin-left: -11vw !important;
+        position: absolute !important;
+        z-index: 100 !important;
+    }
+    
+    .peepTwo{
+        max-width: 16% !important;
+        margin-top: -46vh !important;
+        margin-left: 46vw !important;
+        position: absolute !important;
+        z-index: 100 !important;
+    }
+}
