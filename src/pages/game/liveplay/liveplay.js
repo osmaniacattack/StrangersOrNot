@@ -10,10 +10,8 @@ import axios from 'axios';
 export default function LivePlay(props){
     let number = props.numberPerRound;
     let [questionArray, setQuestionArray] = React.useState([])
-    let [currentQuestion, setCurrentQuestion] = React.useState('');
-    let [currentLevel, setCurrentLevel] = React.useState('');
     let [currentId, setCurrentId] = React.useState(0);
-
+    
     useEffect(() => {
         let questions = [];
         let count = 0;
@@ -49,6 +47,7 @@ export default function LivePlay(props){
                     count = 0;
                 }
                 console.log(questions);
+                questions.push(["FINAL CARD", "EACH PLAYER SEND A MESSAGE TO THE OTHER. OPEN ONLY ONCE THE GAME HAS CONCLUDED."])
                 setQuestionArray(questions);
             })
             .catch(err => {
@@ -66,18 +65,27 @@ export default function LivePlay(props){
     
     return (
         <div>
-            {questionArray.length > 0 ? 
+            {questionArray.length > 0? 
             <Grid container key={currentId}>
                 <Grid item sm={2} md={2} lg={2}></Grid>
                 <Grid item xs={12} sm={8} md={8} lg={8} className="gameStyling">
-                    <Typography variant="h5" className="numberStyling">Card {currentId+1}/{number*3}</Typography>
+                    <Typography variant="h5" className="numberStyling">Card {currentId+1} / {questionArray.length}</Typography>
                     <Card title={questionArray[currentId][0]} question={questionArray[currentId][1]} brand="Strangers or Not"/>
-                    <Button disabled={currentId < 1} variant="outlined" className="prevButton prevNext" onClick={handlePrevious}>Previous</Button>
-                    <Button disabled={currentId >= questionArray.length-1} variant="outlined" className="nextButton prevNext" onClick={handleNext}>Next</Button>
+                    <Button disabled={currentId < 1} 
+                            variant="outlined" 
+                            className="prevButton prevNext" 
+                            onClick={handlePrevious}>Previous</Button>
+
+                    <Button disabled={currentId >= number*3}
+                            variant="outlined"
+                            className="nextButton prevNext" 
+                            onClick={handleNext}>
+                            {currentId+1 >= number*3 ? 'Final Card' : 'Next'}</Button>
                 </Grid>
+                            
                 <Grid item sm={2} md={2} lg={2}></Grid>
             </Grid>
-        : "Loading..."}
+        : 'loading...'}
         </div>
     )
 }
