@@ -28,22 +28,22 @@ export default function LivePlay(props){
                             if(!tempArr.includes(card_value)){
                                 tempArr.push(card_value);
                                 questions.push(["Level 1: Perception", card_value]);
+                                count++;
                             }
-                            count++;
                         }
                         else if (key === "level2"){
                             if(!tempArr.includes(card_value)){
                                 tempArr.push(card_value);
                                 questions.push(["Level 2: Connection", card_value]);
+                                count++;
                             }
-                            count++;
                         }
                         else if (key === "level3"){
                             if(!tempArr.includes(card_value)){
                                 tempArr.push(card_value);
                                 questions.push(["Level 3: Reflection", card_value]);
+                                count++;
                             }
-                            count++;
                         }
                     }
                     count = 0;
