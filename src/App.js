@@ -26,12 +26,14 @@ export default function App() {
     setLanding(true);
   }
   return (
-    <div>
-      <Nav/>
-      {landing == true ? <Landing mainLandingSettings={handleLanding}/> : null}
-      {landing == false? <Game/> : null}
-      <Footer/>
-    </div>
+    
+      <div>
+        <Nav/>
+        {landing == true ? <Landing mainLandingSettings={handleLanding}/> : null}
+        {landing == false? <Game/> : null}
+        <Footer/>
+      </div>
+    
 
   );
 }
