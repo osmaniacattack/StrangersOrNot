@@ -21,7 +21,7 @@ export default function Nav() {
       <CssBaseline />
       <AppBar position="static" className="nav">
         <Toolbar>
-          <Typography variant="h5" className="title">STRANGERS OR NOT</Typography>
+          <Typography variant="h5" className="title"><a style={{textDecoration: 'none', color: 'white'}} href="https://strangers-or-not.vercel.app/">STRANGERS OR NOT</a></Typography>
           <span className="buttonSpan">
             <Switch checked={theme} onChange={handleThemeChange} />
           </span>
