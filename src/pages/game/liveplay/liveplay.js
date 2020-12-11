@@ -12,7 +12,7 @@ export default function LivePlay(props){
     let [questionArray, setQuestionArray] = React.useState([])
     let [currentQuestion, setCurrentQuestion] = React.useState('');
     let [currentLevel, setCurrentLevel] = React.useState('');
-    let [currentId, setCurrentId] = React.useState(1);
+    let [currentId, setCurrentId] = React.useState(0);
 
     useEffect(() => {
         let questions = [];
@@ -37,8 +37,6 @@ export default function LivePlay(props){
                     count = 0;
                 }
                 setQuestionArray(questions);
-                setCurrentQuestion(questions[currentId-1][1]);
-                setCurrentLevel(questions[currentId-1][0]);
             })
             .catch(err => {
                 console.log(err);
@@ -46,35 +44,23 @@ export default function LivePlay(props){
     }, [])
 
     function handlePrevious() {
-        getCurrentQuestion();
-        getCurrentTitle();
-        setCurrentId(currentId--);
+        setCurrentId(currentId - 1);
     }
 
     function handleNext() {
-        getCurrentQuestion();
-        getCurrentTitle();
-        setCurrentId(currentId++);
+        setCurrentId(currentId + 1);
     }
-
-    function getCurrentQuestion(){
-        setCurrentQuestion(questionArray[currentId-1][1])
-    };
-
-    function getCurrentTitle(){
-        setCurrentLevel(questionArray[currentId-1][0])
-    }
-
+    
     return (
         <div>
             {questionArray.length > 0 ? 
             <Grid container key={currentId}>
                 <Grid item sm={2} md={2} lg={2}></Grid>
                 <Grid item xs={12} sm={8} md={8} lg={8} className="gameStyling">
-                    <Typography variant="h5" className="numberStyling">Card {currentId}/{number*3}</Typography>
-                    <Card title={currentLevel} question={currentQuestion} brand="Strangers or Not"/>
-                    <Button disabled={currentId <= 1} disableRipple variant="outlined" className="prevButton prevNext" onMouseDown={handlePrevious}>Previous</Button>
-                    <Button disabled={currentId >= questionArray.length} disableRipple variant="outlined" className="nextButton prevNext" onMouseDown={handleNext}>Next</Button>
+                    <Typography variant="h5" className="numberStyling">Card {currentId+1}/{number*3}</Typography>
+                    <Card title={questionArray[currentId][0]} question={questionArray[currentId][1]} brand="Strangers or Not"/>
+                    <Button disabled={currentId < 1} variant="outlined" className="prevButton prevNext" onClick={handlePrevious}>Previous</Button>
+                    <Button disabled={currentId >= questionArray.length-1} variant="outlined" className="nextButton prevNext" onClick={handleNext}>Next</Button>
                 </Grid>
                 <Grid item sm={2} md={2} lg={2}></Grid>
             </Grid>
