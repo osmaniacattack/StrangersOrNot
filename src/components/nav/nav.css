@@ -56,6 +56,7 @@
     
     .buttonSpan{
         margin-left: 5% !important;
+        color: white !important;
     }
 }
   
@@ -79,6 +80,7 @@
     
     .buttonSpan{
         margin-left: 25% !important;
+        color: white !important;
     }
 }
 
@@ -95,12 +97,13 @@
     }
     
     .toggleButtons{
-        color: white !important;
+        
         margin: 1em !important;
         font-weight: bold !important;
     }
     
     .buttonSpan{
         margin-left: 40% !important;
+        color: white !important;
     }
 }
