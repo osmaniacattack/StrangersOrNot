@@ -19,23 +19,36 @@ export default function LivePlay(props){
         let count = 0;
         axios.get('https://strangers-or-not.firebaseio.com/.json')
             .then(res => {
+                let tempSet = new Set();
                 for (const [key, value] of Object.entries(res.data)){
+                    let tempArr = [];
                     while (count < number){
-                        if (key == "level1"){
-                            questions.push(["Level 1: Perception", value[Math.floor((Math.random() * value.length))]]);
+                        let card_value = value[Math.floor((Math.random() * value.length))];
+                        if (key === "level1"){
+                            if(!tempArr.includes(card_value)){
+                                tempArr.push(card_value);
+                                questions.push(["Level 1: Perception", card_value]);
+                            }
                             count++;
                         }
-                        else if (key == "level2"){
-                            questions.push(["Level 2: Connection", value[Math.floor((Math.random() * value.length))]]);
+                        else if (key === "level2"){
+                            if(!tempArr.includes(card_value)){
+                                tempArr.push(card_value);
+                                questions.push(["Level 2: Connection", card_value]);
+                            }
                             count++;
                         }
-                        else if (key == "level3"){
-                            questions.push(["Level 3: Reflection", value[Math.floor((Math.random() * value.length))]]);
+                        else if (key === "level3"){
+                            if(!tempArr.includes(card_value)){
+                                tempArr.push(card_value);
+                                questions.push(["Level 3: Reflection", card_value]);
+                            }
                             count++;
                         }
                     }
                     count = 0;
                 }
+                console.log(questions);
                 setQuestionArray(questions);
             })
             .catch(err => {
