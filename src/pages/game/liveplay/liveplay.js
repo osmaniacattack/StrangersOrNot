@@ -24,7 +24,7 @@ export default function LivePlay(props){
                     while (count < number){
                         let card_value = value[Math.floor((Math.random() * value.length))];
                         if (key === "level1"){
-                            if(!tempArr.includes(card_value)){
+                            if(!tempArr.includes(card_value)){ // section pushes cards to one big array and checks for no repeated cards
                                 tempArr.push(card_value);
                                 questions.push(["Level 1: Perception", card_value]);
                                 count++;

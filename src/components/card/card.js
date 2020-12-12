@@ -5,7 +5,7 @@ import "../card/card.css";
 import { Grid } from '@material-ui/core';
 import { Typography } from '@material-ui/core';
 
-// General card component used for the game and for instructions on the landing page
+// General card component used for the live game play and for instructions on the landing page
 
 export default function Card(props){ 
     return (
