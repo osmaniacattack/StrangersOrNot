@@ -7,6 +7,8 @@ import PeepOne from '../../../assets/peep-one.png';
 import PeepTwo from '../../../assets/peep-two.png';
 import "../landingCard/landingCard.css";
 
+// Component for the landing card a user see's at the first visit
+
 export default function LandingCard(props){
     let learnButton = props.learnButton;
 

@@ -5,7 +5,9 @@ import "../card/card.css";
 import { Grid } from '@material-ui/core';
 import { Typography } from '@material-ui/core';
 
-export default function Card(props){ //add props
+// General card component used for the game and for instructions on the landing page
+
+export default function Card(props){ 
     return (
         <div>
             <Paper elevation={7} className="paper">

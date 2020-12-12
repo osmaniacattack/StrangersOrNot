@@ -5,26 +5,19 @@ import Footer from "../src/components/footer/footer"
 import Landing from "../src/pages/landing/landing";
 import Game from "./pages/game/game";
 
+// Main App Component featuring the Nav, Footer, and conditionally rendered pages in lieu of routing.
 
 export default function App() {
 
   const [landing, setLanding] = React.useState(true);
+  // Handler function for switching from landing to swettings page
   const handleLanding = () => {
     setLanding(false);
     setStartSettings(true);
   }
 
   const [startSettings, setStartSettings] = React.useState(false);
-  const handleSettings = () => {
-    setStartSettings(false);
-    setGameStart(true);
-  }
 
-  const [gameStart, setGameStart] = React.useState(false);
-  const handleGameStart = () => {
-    setGameStart(false);
-    setLanding(true);
-  }
   return (
     
       <div>

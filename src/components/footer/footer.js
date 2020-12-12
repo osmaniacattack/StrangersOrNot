@@ -4,6 +4,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 import { Typography } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 
+// Footer component
 
 const useStyles = makeStyles((theme) => ({
     subheader: {

@@ -6,12 +6,13 @@ import { Button } from "@material-ui/core"
 import "../../game/liveplay/liveplay.css"
 import axios from 'axios';
 
+// The component that the actual game runs on. Calls API and renders game conditionally using currentId
 
 export default function LivePlay(props){
-    let number = props.numberPerRound;
-    let [questionArray, setQuestionArray] = React.useState([])
-    let [currentId, setCurrentId] = React.useState(0);
-    
+    let number = props.numberPerRound; // receives number of cards per round from parent component
+    let [questionArray, setQuestionArray] = React.useState([]) // questions from API are stored here
+    let [currentId, setCurrentId] = React.useState(0); // current question number used to keep track of level type
+     
     useEffect(() => {
         let questions = [];
         let count = 0;
@@ -56,14 +57,17 @@ export default function LivePlay(props){
     }, [])
 
     function handlePrevious() {
+        // decrements the currentId to take the previous question
         setCurrentId(currentId - 1);
     }
 
     function handleNext() {
+        // increments the currentId to take the next question
         setCurrentId(currentId + 1);
     }
     
     return (
+        // conditional rendering of the question cards only once the questions have loaded
         <div>
             {questionArray.length > 0? 
             <Grid container key={currentId}>

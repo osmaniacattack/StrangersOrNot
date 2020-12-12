@@ -8,9 +8,11 @@ import Switch from "@material-ui/core/Switch";
 import Button from '@material-ui/core/Button';
 import '../nav/nav.css'
 
+// Navigation Bar Component
+
 export default function Nav() {
   const [theme, setTheme] = useState(true);
-  const appliedTheme = createMuiTheme(theme ? light : dark);
+  const appliedTheme = createMuiTheme(theme ? light : dark); // Used to toggle the dark mode feature
 
   const handleThemeChange = () => {
     setTheme(!theme);

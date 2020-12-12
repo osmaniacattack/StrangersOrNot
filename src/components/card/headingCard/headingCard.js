@@ -6,6 +6,7 @@ import PeepThree from '../../../assets/peep-three.png';
 import PeepFour from '../../../assets/peep-four.png';
 import "../headingCard/headingCard.css";
 
+// A card component used as "headers" for the landing page
 
 const useStyles = makeStyles((theme) => ({
     root: {

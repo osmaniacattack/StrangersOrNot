@@ -8,8 +8,10 @@ import { Grid } from "@material-ui/core"
 import LivePlay from "../../../pages/game/liveplay/liveplay";
 import "../settingCard/settingCard.css"
 
+// Component used to customize game settings and initialize game play
+
 export default function SettingCard(props){
-    const [startSettings, setStartSettings] = React.useState(true);
+    const [startSettings, setStartSettings] = React.useState(true); // State for toggling from setting card to game card
     const handleSettings = () => {
       setStartSettings(false);
       setStartGame(true);
@@ -17,13 +19,14 @@ export default function SettingCard(props){
 
     const [startGame, setStartGame] = React.useState(false);
 
-    const [number, setNumber] = React.useState(0);
+    const [number, setNumber] = React.useState(0); // State for holding the number of cards to pass to child component
     const handleChange = (e, newNumber) => {
         setNumber(newNumber);
     }
 
 
     return(
+        // Conditional rendering the setting card if settings have not been chosen yet.
         <div>
             {startSettings === true ? 
             <Paper elevation={7} className="paperSetting">
