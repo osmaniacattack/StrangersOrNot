@@ -5,6 +5,8 @@ Sources:
     - This website was mainly used to create many of the components and functionality of the website since we used Material UI framework.
 - openpeeps.com
     - This was a website providing us with the illustrations we put in the landing page.
+- https://www.codeply.com/responsive-design-cheatsheet.html
+    - This site was used to implement css media breakdowns so that we can have responsive design for different devices.
     
 What You Need to Install to Build the Project:
 - React: npm install react
