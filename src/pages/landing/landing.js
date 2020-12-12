@@ -12,7 +12,7 @@ export default function Landing(props){
             <Grid container className="landingCardSpace shift">
                 <Grid item xs={1} sm={1} md={2} lg={2}/>
                 <Grid item xs={10} sm={10} md={8} lg={8}>
-                    <LandingCard changeLandingToSettings={props.mainLandingSettings} />
+                    <LandingCard title="STRANGERS OR NOT" center={"A GAME TO CREATE HUMAN CONNECTION"} learnButton={true} changeLandingToSettings={props.mainLandingSettings} />
                 </Grid>
                 <Grid item xs={1} sm={1} md={2} lg={2}/>
             </Grid>
@@ -92,6 +92,13 @@ export default function Landing(props){
                 <Grid item xs={1} sm={1} md={2} lg={2}/>
                 <Grid item xs={10} sm={10} md={8} lg={8}>
                     <Card title="HOW TO PLAY" question="AT THE END OF THE GAME, THERE WILL BE A FINAL CARD. SEND YOUR PLAYERS A MESSAGE. OPEN ONLY ONCE YOU ALL HAVE LEFT THE CALL."/>
+                </Grid>
+                <Grid item xs={1} sm={1} md={2} lg={2}/>
+            </Grid>
+            <Grid container className="landingCardSpace shift">
+                <Grid item xs={1} sm={1} md={2} lg={2}/>
+                <Grid item xs={10} sm={10} md={8} lg={8}>
+                    <LandingCard title="STRANGERS OR NOT" center={"READY TO PLAY?"} learnButton={false} changeLandingToSettings={props.mainLandingSettings} />
                 </Grid>
                 <Grid item xs={1} sm={1} md={2} lg={2}/>
             </Grid>
