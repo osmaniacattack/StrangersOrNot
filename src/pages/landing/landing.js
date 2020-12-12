@@ -95,13 +95,6 @@ export default function Landing(props){
                 </Grid>
                 <Grid item xs={1} sm={1} md={2} lg={2}/>
             </Grid>
-            <Grid container className="landingCardSpace shift">
-                <Grid item xs={1} sm={1} md={2} lg={2}/>
-                <Grid item xs={10} sm={10} md={8} lg={8}>
-                    <LandingCard title="STRANGERS OR NOT" center={"READY TO PLAY?"} learnButton={false} changeLandingToSettings={props.mainLandingSettings} />
-                </Grid>
-                <Grid item xs={1} sm={1} md={2} lg={2}/>
-            </Grid>
         </Container>
     )
 }
