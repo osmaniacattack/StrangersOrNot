@@ -23,6 +23,9 @@ How to Build the Project:
 4. Run the Website
    - npm start
 
+Bonus Features:
+- We deployed our website for everyone to use using a service. The link is bit.do/strangersornot if you want to check it out!
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
