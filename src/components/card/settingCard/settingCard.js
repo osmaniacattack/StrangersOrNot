@@ -33,8 +33,8 @@ export default function SettingCard(props){
                     </Grid>
                     <Grid item xs={12} sm={12} md={12} lg={12}>
                         <Grid container>
-                        <Grid item xs={1} sm={1} md={1} lg={1}></Grid>
-                        <Grid item xs={10} sm={10} md={10} lg={10}>
+                        <Grid item xs={2} sm={2} md={2} lg={2}></Grid>
+                        <Grid container item xs={8} sm={8} md={8} lg={8} justify="center">
                             <ToggleButtonGroup value={number} exclusive onChange={handleChange} className="groupSpace">
                                 <ToggleButton disabled={number === 3 ? true : false} value={3} className={number === 3 ? "disabledButton" : "buttonGroup"}>3</ToggleButton>
                                 <ToggleButton disabled={number === 5 ? true : false} value={5} className={number === 5 ? "disabledButton" : "buttonGroup"}>5</ToggleButton>
@@ -45,13 +45,14 @@ export default function SettingCard(props){
                                 <ToggleButton disabled={number === 15 ? true : false} value={15} className={number === 15 ? "disabledButton" : "buttonGroup"}>15</ToggleButton>
                             </ToggleButtonGroup>
                         </Grid>
+                        <Grid item xs={2} sm={2} md={1} lg={1}></Grid>
                     </Grid>
                     <Grid item xs={1} sm={1} md={1} lg={1}></Grid>                    
                 </Grid>
                     <Grid item xs={12} sm={12} md={12} lg={12}>
                         <Grid container>
-                            <Grid item xs={3} sm={3} md={3} lg={3}></Grid>
-                            <Grid item xs={7} sm={7} md={7} lg={7}>
+                            <Grid item xs={4} sm={4} md={4} lg={4}></Grid>
+                            <Grid item xs={6} sm={6} md={6} lg={6}>
                                 <Button disabled={number === 0} variant="contained" size="large" className="startButton" onClick={handleSettings}>Start Game</Button>
                             </Grid>
                             <Grid item xs={2} sm={2} md={2} lg={2}></Grid>

@@ -1,14 +1,9 @@
-@media (max-width: 34.4em) {
+@media (max-width: 35.49em) {
     .numberStyling{
         margin-top: 6rem !important;
-        margin-left: 20vw !important;
+        margin-left: 30vw !important;
         font-weight: bold !important;
         font-size: 20px !important;
-    }
-
-    .gameStyling{
-        margin-left: 22vw !important;
-        max-width: 60% !important;
     }
 
     .prevNext{
@@ -35,14 +30,9 @@
 @media (min-width: 35.5em) { 
     .numberStyling{
         margin-top: 6rem !important;
-        margin-left: 23vw !important;
+        margin-left: 25vw !important;
         font-weight: bold !important;
         font-size: 20px !important;
-    }
-
-    .gameStyling{
-        margin-left: 5vw !important;
-        max-width: 60% !important;
     }
 
     .prevNext{
@@ -68,15 +58,15 @@
 /* Medium */
 @media (min-width: 48em) {
     .numberStyling{
-        margin-top: 4rem !important;
-        margin-left: 26.5vw !important;
+        margin-top: 6rem !important;
+        margin-left: 28vw !important;
         font-weight: bold !important;
         font-size: 20px !important;
     }
 
     .gameStyling{
-        margin-left: 5vw !important;
-        max-width: 60% !important;
+        margin-left: 1vw !important;
+        max-width: 100% !important;
         margin-top: -2.5vw !important;
     }
 

@@ -1,16 +1,16 @@
-@media (max-width: 34.4em) {
+@media (max-width: 35.49em) {
     .landingButtons{
         color: white !important;
         background-color: #bf0413 !important;
         font-weight: bold !important;
         border-radius: 16px !important;
-        margin-top: -3rem !important;
+        margin-top: 1.5rem !important;
     }
     
     .paper{
         max-width: 90vw !important;
-        height: 50vh !important;
-        max-height: 50vh !important;
+        height: 22.5rem !important;
+        max-height: 22.5rem !important;
         color: #bf0413 !important;
         border-radius: 50px !important;
         margin: 1% !important;
@@ -20,28 +20,28 @@
     
     .cardTitle{
         font-weight: 700 !important;
-        font-size: 20px !important;
+        font-size: 1.7rem !important;
         margin: 3rem 0 0 0 !important;
     }
     
     .cardDescription{
         font-weight: 700 !important;
-        font-size: 10px !important;
-        margin: 5rem !important;
+        font-size: 0.9rem !important;
+        margin: 2.5rem !important;
     }
     
     .peepOne{
-        max-width: 28% !important;
-        margin-top: 15vh !important;
+        max-width: 33% !important;
+        margin-top: 13vh !important;
         margin-left: -13vw !important;
         position: absolute !important;
         z-index: 100 !important;
     }
     
     .peepTwo{
-        max-width: 22% !important;
-        margin-top: -27rem !important;
-        margin-left: 43rem !important;
+        max-width: 29% !important;
+        margin-top: 10vh !important;
+        margin-left: 60vw !important;
         position: absolute !important;
         z-index: 100 !important;
     }
@@ -63,8 +63,8 @@
     
     .paper{
         max-width: 80vw !important;
-        height: 50vh !important;
-        max-height: 50vh !important;
+        height: 22rem !important;
+        max-height: 22rem !important;
         color: #bf0413 !important;
         border-radius: 50px !important;
         margin: 2% !important;
@@ -74,13 +74,13 @@
     
     .cardTitle{
         font-weight: 700 !important;
-        font-size: 30px !important;
+        font-size: 2rem !important;
         margin: 3rem 0 0 0 !important;
     }
     
     .cardDescription{
         font-weight: 700 !important;
-        font-size: 15px !important;
+        font-size: 1rem !important;
         margin: 5rem !important;
     }
     
@@ -93,9 +93,9 @@
     }
     
     .peepTwo{
-        max-width: 22% !important;
-        margin-top: -33rem !important;
-        margin-left: 43rem !important;
+        max-width: 23% !important;
+        margin-top: 13vh !important;
+        margin-left: 62vw !important;
         position: absolute !important;
         z-index: 100 !important;
     }
@@ -117,8 +117,8 @@
     
     .paper{
         max-width: 80vw !important;
-        height: 50vh !important;
-        max-height: 50vh !important;
+        height: 24rem !important;
+        max-height: 24rem !important;
         color: #bf0413 !important;
         border-radius: 50px !important;
         margin: 2% !important;
@@ -128,13 +128,13 @@
     
     .cardTitle{
         font-weight: 700 !important;
-        font-size: 40px !important;
+        font-size: 2.5rem !important;
         margin: 3rem 0 -.5rem 0 !important;
     }
     
     .cardDescription{
         font-weight: 700 !important;
-        font-size: 20px !important;
+        font-size: 1.25rem !important;
         margin: 5rem !important;
     }
     
@@ -148,7 +148,17 @@
     
     .peepTwo{
         max-width: 20% !important;
-        margin-top: -27vh !important;
+        margin-top: 10vh !important;
+        margin-left: 62vw !important;
+        position: absolute !important;
+        z-index: 100 !important;
+    }
+}
+
+@media (min-width: 960px) and (max-width: 63.99em){
+    .peepTwo{
+        max-width: 20% !important;
+        margin-top: 9vh !important;
         margin-left: 48vw !important;
         position: absolute !important;
         z-index: 100 !important;
@@ -171,8 +181,8 @@
     
     .paper{
         max-width: 80vw !important;
-        height: 60vh !important;
-        max-height: 60vh !important;
+        height: 30rem !important;
+        max-height: 30rem !important;
         color: #bf0413 !important;
         border-radius: 50px !important;
         margin: 2% !important;
@@ -194,16 +204,33 @@
     
     .peepOne{
         max-width: 20% !important;
-        margin-top: 9vh !important;
-        margin-left: -11vw !important;
+        margin-top: 20vh !important;
+        margin-left: -10vw !important;
         position: absolute !important;
         z-index: 100 !important;
     }
     
     .peepTwo{
         max-width: 16% !important;
-        margin-top: -46rem !important;
-        margin-left: 46rem !important;
+        margin-top: 17vh !important;
+        margin-left: 50vw !important;
+        position: absolute !important;
+        z-index: 100 !important;
+    }
+}
+
+@media (min-width: 80em){
+    .peepOne{
+        max-width: 18% !important;
+        margin-top: 14vh !important;
+        margin-left: -10vw !important;
+        position: absolute !important;
+        z-index: 100 !important;
+    }
+    .peepTwo{
+        max-width: 15% !important;
+        margin-top: 9vh !important;
+        margin-left: 40rem !important;
         position: absolute !important;
         z-index: 100 !important;
     }

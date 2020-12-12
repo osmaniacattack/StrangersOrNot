@@ -12,6 +12,7 @@ export default function LandingCard(props){ //add props
         <div>
             <Paper elevation={7} className="paper">
                 <img src={PeepOne} className="peepOne"/>
+                <img src={PeepTwo} className="peepTwo"/>
                 <Grid container>
                     <Grid item xs={12} sm={12} md={12} lg={12}>
                         <Typography align="center" className="cardTitle" variant="h2">Strangers Or Not</Typography>
@@ -29,7 +30,7 @@ export default function LandingCard(props){ //add props
                         </Grid>
                     </Grid>
                 </Grid>
-                <img src={PeepTwo} className="peepTwo"/>
+                
             </Paper>
         </div>
     )

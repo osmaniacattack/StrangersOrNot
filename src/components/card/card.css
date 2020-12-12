@@ -1,8 +1,8 @@
-@media (max-width: 34.4em) {
+@media (max-width: 35.49em) {
     .paper{
         max-width: 40vw !important;
-        height: 50vh !important;
-        max-height: 50vh !important;
+        height: 35rem !important;
+        max-height: 35rem !important;
         color: #bf0413 !important;
         border-radius: 50px !important;
         margin: 2% !important;
@@ -12,18 +12,18 @@
     .cardLevel{
         font-weight: 700 !important;
         margin: 3rem 0 0 0 !important;
-        font-size: 1rem !important;
+        font-size: 0.9rem !important;
     }
     
     .cardQuestion{
         font-weight: 700 !important;
         margin: 2rem 2.5rem 0 2.5rem !important;
-        font-size: .8rem !important;
+        font-size: 1rem !important;
     }
     
     .cardBranding{
         font-weight: 700 !important;
-        font-size: 1rem !important;
+        font-size: 0.9rem !important;
         margin: 2rem 0 0 0 !important;
     }   
 }
@@ -31,8 +31,8 @@
 @media (min-width: 35.5em) {
     .paper{
         max-width: 40vw !important;
-        height: 50vh !important;
-        max-height: 50vh !important;
+        height: 24rem!important;
+        max-height: 24rem !important;
         color: #bf0413 !important;
         border-radius: 50px !important;
         margin: 2% !important;
@@ -42,18 +42,18 @@
     .cardLevel{
         font-weight: 700 !important;
         margin: 3rem 0 0 0 !important;
-        font-size: 1rem !important;
+        font-size: 1.05rem !important;
     }
     
     .cardQuestion{
         font-weight: 700 !important;
         margin: 2rem 2.5rem 0 2.5rem !important;
-        font-size: 1rem !important;
+        font-size: 1.15rem !important;
     }
     
     .cardBranding{
         font-weight: 700 !important;
-        font-size: 1rem !important;
+        font-size: 1.05rem !important;
         margin: 2rem 0 0 0 !important;
     }    
  }
@@ -62,8 +62,8 @@
 @media (min-width: 48em) {
     .paper{
         max-width: 40vw !important;
-        height: 50vh !important;
-        max-height: 50vh !important;
+        height: 25rem !important;
+        max-height: 25rem !important;
         color: #bf0413 !important;
         border-radius: 50px !important;
         margin: 2% !important;
@@ -73,18 +73,18 @@
     .cardLevel{
         font-weight: 700 !important;
         margin: 3rem 0 0 0 !important;
-        font-size: 1rem !important;
+        font-size: 1.2rem !important;
     }
     
     .cardQuestion{
         font-weight: 700 !important;
         margin: 2rem 2.5rem 0 2.5rem !important;
-        font-size: 1.2rem !important;
+        font-size: 1.4rem !important;
     }
     
     .cardBranding{
         font-weight: 700 !important;
-        font-size: 1rem !important;
+        font-size: 1.2rem !important;
         margin: 2rem 0 0 0 !important;
     }    
  }

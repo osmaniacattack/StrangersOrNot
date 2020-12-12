@@ -55,14 +55,14 @@ export default function LivePlay(props){
         <div>
             {questionArray.length > 0 ? 
             <Grid container key={currentId}>
-                <Grid item sm={2} md={2} lg={2}></Grid>
-                <Grid item xs={12} sm={8} md={8} lg={8} className="gameStyling">
+                <Grid item xs={1} sm={2} md={2} lg={2}></Grid>
+                <Grid item xs={10} sm={8} md={8} lg={8} className="gameStyling">
                     <Typography variant="h5" className="numberStyling">Card {currentId+1}/{number*3}</Typography>
                     <Card title={questionArray[currentId][0]} question={questionArray[currentId][1]} brand="Strangers or Not"/>
                     <Button disabled={currentId < 1} variant="outlined" className="prevButton prevNext" onClick={handlePrevious}>Previous</Button>
                     <Button disabled={currentId >= questionArray.length-1} variant="outlined" className="nextButton prevNext" onClick={handleNext}>Next</Button>
                 </Grid>
-                <Grid item sm={2} md={2} lg={2}></Grid>
+                <Grid item xs={1} sm={1} md={1} lg={2}></Grid>
             </Grid>
         : "Loading..."}
         </div>
