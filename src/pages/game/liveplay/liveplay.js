@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react"
+import { Container } from "@material-ui/core"
 import { Typography } from "@material-ui/core"
 import Card  from "../../../components/card/card"
 import { Grid } from "@material-ui/core"
@@ -68,7 +69,7 @@ export default function LivePlay(props){
     
     return (
         // conditional rendering of the question cards only once the questions have loaded
-        <div>
+        <Container>
             {questionArray.length > 0? 
             <Grid container key={currentId}>
                 <Grid item xs={1} sm={2} md={2} lg={2}></Grid>
@@ -91,6 +92,6 @@ export default function LivePlay(props){
 
             </Grid>
         : 'loading...'}
-        </div>
+        </Container>
     )
 }

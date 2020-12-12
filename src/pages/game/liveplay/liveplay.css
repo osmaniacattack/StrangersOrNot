@@ -1,7 +1,7 @@
 @media (max-width: 35.49em) {
     .numberStyling{
         margin-top: 6rem !important;
-        margin-left: 30vw !important;
+        margin-left: 26.5vw !important;
         font-weight: bold !important;
         font-size: 20px !important;
     }
@@ -94,7 +94,7 @@
 @media (min-width: 64em) { 
     .numberStyling{
         margin-top: 6rem !important;
-        margin-left: 30vw !important;
+        margin-left: 21.5rem !important;
         font-weight: bold !important;
         font-size: 20px !important;
     }
@@ -104,7 +104,7 @@
 @media (min-width: 80em) { 
     .numberStyling{
         margin-top: 6rem !important;
-        margin-left: 29vw !important;
+        margin-left: 21rem !important;
         font-weight: bold !important;
         font-size: 30px !important;
     }
