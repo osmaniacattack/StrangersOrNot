@@ -101,4 +101,40 @@
  }
   
 /* X-Large */
-@media (min-width: 80em) {  }
+@media (min-width: 80em) { 
+    .numberStyling{
+        margin-top: 6rem !important;
+        margin-left: 29vw !important;
+        font-weight: bold !important;
+        font-size: 30px !important;
+    }
+
+    .gameStyling{
+        margin-left: 1vw !important;
+        max-width: 100% !important;
+        margin-top: -2.5vw !important;
+    }
+
+    .prevNext{
+        color: white !important;
+        background-color: #bf0413 !important;
+        font-weight: bold !important;
+        border-radius: 20px !important;
+        width: 100px !important;
+        height: 70px !important;
+    }
+
+    .prevButton{
+        float:left !important;
+        margin: 0 0 0 52px !important;
+        width: 150px !important;
+        font-size: 20px !important;
+    }
+
+    .nextButton{
+        float:right !important;
+        margin: 0 52px 0 0 !important;
+        width: 150px !important;
+        font-size: 20px !important;
+    } 
+ }
