@@ -19,8 +19,8 @@
     
     .peepThree{
         max-width: 35% !important;
-        margin-top: 7vh !important;
-        margin-left: -48vw !important;
+        margin-top: -2vh !important;
+        margin-left: -50vw !important;
         position: absolute !important;
         z-index: 100 !important;
     }
@@ -28,7 +28,7 @@
     .peepFour{
         max-width: 30% !important;
         margin-top: -40vh !important;
-        margin-left: 14vw !important;
+        margin-left: 17vw !important;
         position: absolute !important;
         z-index: 100 !important;
     }

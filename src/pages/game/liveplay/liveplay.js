@@ -69,7 +69,7 @@ export default function LivePlay(props){
             <Grid container key={currentId}>
                 <Grid item xs={1} sm={2} md={2} lg={2}></Grid>
                 <Grid item xs={10} sm={8} md={8} lg={8} className="gameStyling">
-                    <Typography variant="h5" className="numberStyling">Card {currentId+1}/{number*3}</Typography>
+                    <Typography variant="h5" className="numberStyling">Card {currentId+1}/{number*3+1}</Typography>
 
                     <Card title={questionArray[currentId][0]} question={questionArray[currentId][1]} brand="Strangers or Not"/>
                     <Button disabled={currentId < 1} 

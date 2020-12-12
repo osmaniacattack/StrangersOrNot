@@ -16,6 +16,7 @@ export default function Landing(props){
                 </Grid>
                 <Grid item xs={1} sm={1} md={2} lg={2}/>
             </Grid>
+            <div id="aboutSection">
             <Grid container className="shift">
                 <Grid item xs={1} sm={1} md={2} lg={2}/>
                 <Grid item xs={10} sm={10} md={8} lg={8}>
@@ -23,6 +24,7 @@ export default function Landing(props){
                 </Grid>
                 <Grid item xs={1} sm={1} md={2} lg={2}/>
             </Grid>
+            </div>
             <Grid container className="shift">
                 <Grid item xs={1} sm={1} md={2} lg={2}/>
                 <Grid item xs={10} sm={10} md={8} lg={8}>

@@ -24,7 +24,8 @@ export default function LandingCard(props){ //add props
                         <Grid container>
                             <Grid item xs={3} sm={3} md={3} lg={3}></Grid>
                             <Grid item xs={7} sm={7} md={7} lg={7}>
-                                <Button variant="contained" size="large" className="landingButtons rightButton" onClick={props.changeLandingToSettings}>Play Game</Button>
+                                <Button variant="contained" size="medium" className="landingButtons leftButton"><a href="#aboutSection" style={{textDecoration: 'none', color: 'white'}}>Learn to Play</a></Button>
+                                <Button variant="contained" size="medium" className="landingButtons rightButton" onClick={props.changeLandingToSettings}>Play Game</Button>
                             </Grid>
                             <Grid item xs={2} sm={2} md={2} lg={2}></Grid>
                         </Grid>

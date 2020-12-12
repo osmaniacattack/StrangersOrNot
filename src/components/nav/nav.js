@@ -23,7 +23,7 @@ export default function Nav() {
         <Toolbar>
           <Typography variant="h5" className="title"><a style={{textDecoration: 'none', color: 'white'}} href="https://strangers-or-not.vercel.app/">STRANGERS OR NOT</a></Typography>
           <span className="buttonSpan">
-            <Switch checked={theme} onChange={handleThemeChange} />
+            <Switch style={{color:"white"}} checked={theme} onChange={handleThemeChange} />
           </span>
         </Toolbar>
       </AppBar>

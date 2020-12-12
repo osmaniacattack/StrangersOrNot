@@ -1,7 +1,7 @@
 @media (max-width: 34.4em) {
     .nav{
         background-color: #bf0413 !important;
-        width: 100% !important;
+        width: 100vw !important;
     }
     
     .title{
@@ -103,7 +103,7 @@
     }
     
     .buttonSpan{
-        margin-left: 40% !important;
+        margin-left: 80% !important;
         color: white !important;
     }
 }

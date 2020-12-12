@@ -91,7 +91,14 @@
   }
   
 /* Large */
-@media (min-width: 64em) {  }
+@media (min-width: 64em) { 
+    .numberStyling{
+        margin-top: 6rem !important;
+        margin-left: 30vw !important;
+        font-weight: bold !important;
+        font-size: 20px !important;
+    }
+ }
   
 /* X-Large */
 @media (min-width: 80em) {  }

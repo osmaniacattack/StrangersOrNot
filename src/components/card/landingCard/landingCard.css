@@ -4,7 +4,8 @@
         background-color: #bf0413 !important;
         font-weight: bold !important;
         border-radius: 16px !important;
-        margin-top: 1.5rem !important;
+        margin: .2rem auto !important;
+        width: 150px !important;
     }
     
     .paper{
@@ -20,7 +21,7 @@
     
     .cardTitle{
         font-weight: 700 !important;
-        font-size: 1.7rem !important;
+        font-size: 1.5rem !important;
         margin: 3rem 0 0 0 !important;
     }
     
@@ -173,10 +174,11 @@
         font-weight: bold !important;
         border-radius: 16px !important;
         margin-top: 1rem !important;
+        margin-left: 1.2rem !important;
     }
     
     .rightButton{
-        margin-left: 28% !important;
+        margin-left: 15% !important;
     }
     
     .paper{
