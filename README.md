@@ -1,3 +1,5 @@
+INF 133 Final Project submission by: aqosman (Abdul Osman, 63461133) and radra (Ryan Adra, 33026807)
+
 Sources:
 - https://levelup.gitconnected.com/material-ui-how-to-implement-dark-mode-and-edit-theme-colors-effcfa0893b9
     - This website was used to implement a dark mode feature for the website.
@@ -22,9 +24,10 @@ How to Build the Project:
    - npm install axios
 4. Run the Website
    - npm start
+5. View the website at localhost:3000
 
 Bonus Features:
-- We deployed our website for everyone to use using a service. The link is bit.do/strangersornot if you want to check it out!
+- We deployed our website for everyone to use using a service called Vercel. The link is bit.do/strangersornot if you want to check it out!
 
 # Getting Started with Create React App
 
