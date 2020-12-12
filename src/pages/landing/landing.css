@@ -2,7 +2,21 @@
     margin: 7rem 0 !important;
     padding-bottom: 4rem !important;
 }
+@media(max-width: 35.49em){
 
-.shift{
-    padding-left: 2rem !important;
+}
+@media(min-width: 35.5em){
+
+}
+
+@media (min-width: 48em){
+    .shift{
+        padding-left: 2rem !important;
+    }
+}
+
+@media (min-width: 64em){
+    .shift{
+        padding-left: 2rem !important;
+    }
 }
