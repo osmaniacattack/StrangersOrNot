@@ -4,7 +4,8 @@
         background-color: #bf0413 !important;
         font-weight: bold !important;
         border-radius: 16px !important;
-        margin: .2rem auto !important;
+        margin: .2rem !important;
+        margin-left: .25rem !important;
         width: 150px !important;
     }
     
