@@ -1,3 +1,26 @@
+Sources:
+- https://levelup.gitconnected.com/material-ui-how-to-implement-dark-mode-and-edit-theme-colors-effcfa0893b9
+    - This website was used to implement a dark mode feature for the website.
+- material-ui.com
+    - This website was mainly used to create many of the components and functionality of the website since we used Material UI framework.
+- openpeeps.com
+    - This was a website providing us with the illustrations we put in the landing page.
+    
+What You Need to Install to Build the Project:
+- React: npm install react
+- Material-UI Core: npm install @material-ui/core
+- Axios: npm install axios
+
+How to Build the Project:
+1. Install React
+   - npm install react
+2. Install Material UI
+   - npm install @material-ui/core
+3. Install Axios
+   - npm install axios
+4. Run the Website
+   - npm start
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
