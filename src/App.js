@@ -15,6 +15,9 @@ export default function App() {
   useEffect(() => {
     ReactGA.initialize('G-YDYM1JSKPW');
     ReactGA.pageview(window.location.pathname + window.location.search);
+
+    ReactGA.initialize('G-3RSRD6CGSL');
+    ReactGA.pageview(window.location.pathname + window.location.search);
   })
 
   const [landing, setLanding] = React.useState(true);
