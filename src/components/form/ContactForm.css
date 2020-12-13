@@ -187,7 +187,7 @@
 
 @media (min-width: 80em) { 
     .contactPaper {
-        max-width: 80vw !important;
+        max-width: 84vw !important;
         height: 25rem !important;
         max-height: 25rem !important;
         color: #bf0413 !important;
@@ -200,9 +200,8 @@
         display: flex !important;
         flex-wrap: wrap !important;
         flex-direction: column !important;
-        width: 40vw !important;
+        max-width: 28vw !important;
         margin-top: 40px !important;
-        margin-left: -1rem !important;
     }
     
     .formLabel{

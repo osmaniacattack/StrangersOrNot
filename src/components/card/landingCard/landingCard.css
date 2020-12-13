@@ -57,6 +57,7 @@
         font-weight: bold !important;
         border-radius: 16px !important;
         margin-top: -3rem !important;
+        width: 100px !important;
     }
     
     .rightButton{
@@ -175,7 +176,7 @@
         font-weight: bold !important;
         border-radius: 16px !important;
         margin-top: 1rem !important;
-        margin-left: 1.2rem !important;
+        margin-left: 1.7rem !important;
     }
     
     .rightButton{
@@ -223,6 +224,10 @@
 }
 
 @media (min-width: 80em){
+    .landingButtons{
+        margin-left: 4rem !important;
+    }
+
     .peepOne{
         max-width: 18% !important;
         margin-top: 14vh !important;
