@@ -37,12 +37,12 @@ export default class ContactForm extends React.Component {
                             method="POST"
                         >
                             <span>
-                                <label className="inputLabels">What's Your Name?</label>
-                                <Input type="name" name="Name" fullWidth placeholder="Stranger" className="inputs"/>
+                                <label className="inputLabels">What's Your Name?*</label>
+                                <Input required={true} type="name" name="Name" fullWidth placeholder="Stranger" className="inputs"/>
                             </span>
                             <span>
-                                <label className="inputLabels">What's Your Message?</label>                        
-                                <Input type="text" name="Message" fullWidth placeholder="Feedback, New Q's" className="inputs"/>
+                                <label className="inputLabels">What's Your Message?*</label>                        
+                                <Input required={true} type="text" name="Message" fullWidth placeholder="Feedback, New Q's" className="inputs"/>
                             </span>
                             {status === "SUCCESS" ? <p>We'll be sure to take note of your message in a timely manner. Thanks for playing our game!</p> : <Button type="submit" variant="contained" className="submitButton">Submit</Button>}
                             {status === "ERROR" && <p>Ooops! There was an error.</p>}

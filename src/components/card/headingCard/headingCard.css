@@ -40,8 +40,8 @@
         background-color: #bf0413 !important;
         color:white !important;
         max-width: 80vw !important;
-        height: 50vh !important;
-        max-height: 50vh !important;
+        height: 22rem !important;
+        max-height: 22rem !important;
         border-radius: 50px !important;
         margin: 2% !important;
         text-transform: uppercase !important;
@@ -51,7 +51,7 @@
     .textSpace{
         line-height: 22rem !important;
         font-weight: bold !important;
-        font-size: 30px !important;
+        font-size: 32px !important;
     }
     
     .peepThree{
@@ -77,8 +77,8 @@
         background-color: #bf0413 !important;
         color:white !important;
         max-width: 80vw !important;
-        height: 30rem !important;
-        max-height: 30rem !important;
+        height: 24rem !important;
+        max-height: 24rem !important;
         border-radius: 50px !important;
         margin: 2% !important;
         text-transform: uppercase !important;
@@ -101,8 +101,8 @@
     
     .peepFour{
         max-width: 22% !important;
-        margin-top: -46vh !important;
-        margin-left: 16vw !important;
+        margin-top: -36vh !important;
+        margin-left: 18vw !important;
         position: absolute !important;
         z-index: 100 !important;
     }

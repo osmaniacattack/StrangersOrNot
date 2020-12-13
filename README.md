@@ -27,7 +27,8 @@ How to Build the Project:
 5. View the website at localhost:3000
 
 Bonus Features:
-- We deployed our website for everyone to use using a service called Vercel. The link is bit.do/strangersornot if you want to check it out!
+- We deployed our website for everyone to use using a service called Vercel. The link is strangers-or-not.vercel.app if you want to check it out!
+- We also implemented a contact form at the botttom of the landing page so that we can get either feedback from our users on what can be improved on the site or new questions from users to add to our question database.
 
 # Getting Started with Create React App
 

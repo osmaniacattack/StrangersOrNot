@@ -5,14 +5,14 @@
         font-weight: bold !important;
         border-radius: 16px !important;
         margin: .2rem !important;
-        margin-left: .25rem !important;
+        margin-left: .15rem !important;
         width: 150px !important;
     }
     
     .paper{
         max-width: 90vw !important;
-        height: 19rem !important;
-        max-height: 19rem !important;
+        height: 20rem !important;
+        max-height: 20rem !important;
         color: #bf0413 !important;
         border-radius: 50px !important;
         margin: 1% !important;
@@ -28,7 +28,7 @@
     
     .cardDescription{
         font-weight: 700 !important;
-        font-size: 0.9rem !important;
+        font-size: 0.85rem !important;
         margin: 2.5rem !important;
     }
     
