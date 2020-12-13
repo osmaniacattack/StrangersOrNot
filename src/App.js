@@ -4,6 +4,9 @@ import Nav from "../src/components/nav/nav"
 import Footer from "../src/components/footer/footer"
 import Landing from "../src/pages/landing/landing";
 import Game from "./pages/game/game";
+import ReactGA from 'react-ga';
+ReactGA.initialize('256097596');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 // Main App Component featuring the Nav, Footer, and conditionally rendered pages in lieu of routing.
 
