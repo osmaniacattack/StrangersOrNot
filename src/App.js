@@ -7,6 +7,7 @@ import Game from "./pages/game/game";
 
 // Main App Component featuring the Nav, Footer, and conditionally rendered pages in lieu of routing.
 
+
 export default function App() {
 
   const [landing, setLanding] = React.useState(true);
