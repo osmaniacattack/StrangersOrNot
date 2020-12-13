@@ -5,6 +5,7 @@ import Footer from "../src/components/footer/footer"
 import Landing from "../src/pages/landing/landing";
 import Game from "./pages/game/game";
 import ReactGA from 'react-ga';
+import ContactForm from './components/form/ContactForm';
 
 
 // Main App Component featuring the Nav, Footer, and conditionally rendered pages in lieu of routing.
@@ -30,13 +31,13 @@ export default function App() {
   const [startSettings, setStartSettings] = React.useState(false);
 
   return (
-    
-      <div>
+    <div>
         <Nav/>
         {landing == true ? <Landing mainLandingSettings={handleLanding}/> : null}
         {landing == false? <Game/> : null}
         <Footer/>
       </div>
+      
     
 
   );

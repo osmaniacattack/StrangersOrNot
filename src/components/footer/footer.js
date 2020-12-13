@@ -28,7 +28,7 @@ export default function Footer() {
       <React.Fragment>
         <AppBar position="fixed" color="primary" className={classes.appBar} style={{backgroundColor:"#bf0413"}}>
           <Toolbar>
-            <Typography style={{margin:"auto"}}>Created with some love from Abdul and Ryan (and for a class project!)</Typography>
+            <Typography style={{margin:"auto"}}>Created with some love from Abdul and Ryan (for a final class project!)</Typography>
           </Toolbar>
         </AppBar>
       </React.Fragment>

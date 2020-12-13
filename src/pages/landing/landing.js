@@ -5,6 +5,7 @@ import HeadingCard from "../../components/card/headingCard/headingCard";
 import { Grid } from '@material-ui/core';
 import { Container } from '@material-ui/core';
 import "../landing/landing.css"
+import ContactForm from "../../components/form/ContactForm"
 
 // Landing page component that holds the Landing Card, Heading Card, and regular Card components
 
@@ -30,14 +31,14 @@ export default function Landing(props){
             <Grid container className="shift">
                 <Grid item xs={1} sm={1} md={2} lg={2}/>
                 <Grid item xs={10} sm={10} md={8} lg={8}>
-                    <Card title="ABOUT THE GAME" question="STRANGERS OR NOT IS A GAME BASED OFF OF THE POPULAR CARD GAME, WE'RE NOT REALLY STRANGERS. IT IS A PURPOSE DRIVEN CARD GAME AND MOVEMENT ALL ABOUT EMPOWERING MEANINGFUL CONNECTIONS."/>
+                    <Card title="ABOUT THE GAME" question="Strangers or not is a game based off of the popular card game, we’re not really strangers. WNRS is a movement and a game meant to create and foster human connections with the people surrounding us."/>
                 </Grid>
                 <Grid item xs={1} sm={1} md={2} lg={2}/>
             </Grid>
             <Grid container className="shift">
                 <Grid item xs={1} sm={1} md={2} lg={2}/>
                 <Grid item xs={10} sm={10} md={8} lg={8}>
-                    <Card title="ABOUT THE GAME" question="THREE CAREFULLY CRAFTED LEVELS OF QUESTIONS AND WILDCARDS WILL ALLOW YOU TO DEEPEN YOUR EXISTING RELATIONSHIP AND CREATE NEW ONES."/>
+                    <Card title="ABOUT THE GAME" question="The game consists of 3 levels of questions ultimately aimed at helping you and your group connect with one another in an impactful manner."/>
                 </Grid>
                 <Grid item xs={1} sm={1} md={2} lg={2}/>
             </Grid>
@@ -51,49 +52,70 @@ export default function Landing(props){
             <Grid container className="shift">
                 <Grid item xs={1} sm={1} md={2} lg={2}/>
                 <Grid item xs={10} sm={10} md={8} lg={8}>
-                    <Card title="HOW TO PLAY" question="ORGANIZE A VIRTUAL CALL WITH WHOMEVER YOU'D LIKE TO PLAY WITH. ONE PLAYER CAN HAVE THE QUESTIONS UP FOR THE GROUP."/>
+                    <Card title="HOW TO PLAY" question="gather a group of folks you want to play this game with. have one person be in charge of setting up the game on their screen and reading the questions."/>
                 </Grid>
                 <Grid item xs={1} sm={1} md={2} lg={2}/>
             </Grid>
             <Grid container className="shift">
                 <Grid item xs={1} sm={1} md={2} lg={2}/>
                 <Grid item xs={10} sm={10} md={8} lg={8}>
-                    <Card title="HOW TO PLAY" question="HAVE THE ONE PLAYER CHOOSE HOW MANY CARDS THEY WANT PER ROUND. THEN, THE PLAYER WILL HAVE THE CARD IN PLAY SHOWN ON THEIR SCREEN, SO THEY CAN READ THE QUESTION CARD TO THE REST OF THE GROUP."/>
+                    <Card title="HOW TO PLAY" question="the host presses “play game” and it redirects them to a settings card asking them to choose how many cards they want to play per round. as a group, make your choice and have your person press “play”."/>
                 </Grid>
                 <Grid item xs={1} sm={1} md={2} lg={2}/>
             </Grid>
             <Grid container className="shift">
                 <Grid item xs={1} sm={1} md={2} lg={2}/>
                 <Grid item xs={10} sm={10} md={8} lg={8}>
-                    <Card title="HOW TO PLAY" question="GO AROUND LETTING EACH PLAYER ANSWER THE QUESTION BEFORE MOVING ON. USE THE ARROWS TO MOVE ON TO THE NEXT QUESTION OR TO LOOK BACK AT PREVIOUS QUESTIONS."/>
+                    <Card title="HOW TO PLAY" question="all of your randomized cards will appear, so answer each card one by one. have everyone in the group answer before moving on to the next question."/>
                 </Grid>
                 <Grid item xs={1} sm={1} md={2} lg={2}/>
             </Grid>
             <Grid container className="shift">
                 <Grid item xs={1} sm={1} md={2} lg={2}/>
                 <Grid item xs={10} sm={10} md={8} lg={8}>
-                    <Card title="HOW TO PLAY" question="LEVEL 1 CARDS ARE PERCEPTION QUESTIONS. THIS LEVEL IS ABOUT GAINING PERSPECTIVE ON WHAT FIRST IMPRESSIONS WE GIVE OFF AND CHALLENGING THE ASSUMPTIONS WE MAKE ABOUT OTHERS."/>
+                    <Card title="HOW TO PLAY" question="use the “next” and “previous” buttons to move to the next card or the previous card (if you want to revisit the card), respectively."/>
                 </Grid>
                 <Grid item xs={1} sm={1} md={2} lg={2}/>
             </Grid>
             <Grid container className="shift">
                 <Grid item xs={1} sm={1} md={2} lg={2}/>
                 <Grid item xs={10} sm={10} md={8} lg={8}>
-                    <Card title="HOW TO PLAY" question="LEVEL 2 CARDS ARE CONNECTION QUESTIONS. THIS LEVEL IS ABOUT ASKING THE RARELY ASKED QUESTIONS AND CONNECTING ON A DEEPER LEVEL."/>
+                    <Card title="HOW TO PLAY" question="level 1 cards are the perception questions. this level makes you think about your impressions on other people and how you make assumptions about other folks."/>
                 </Grid>
                 <Grid item xs={1} sm={1} md={2} lg={2}/>
             </Grid>
             <Grid container className="shift">
                 <Grid item xs={1} sm={1} md={2} lg={2}/>
                 <Grid item xs={10} sm={10} md={8} lg={8}>
-                    <Card title="HOW TO PLAY" question="LEVEL 3 ARE REFLECTION QUESTIONS. THIS LEVEL IS THE TIME TO REFLECT ON YOUR GAME EXPERIENCE."/>
+                    <Card title="HOW TO PLAY" question="level 2 cards are the connection questions. this level focuses on developing your connections with others beyond the surface level and provides thought provoking questions to do that."/>
                 </Grid>
                 <Grid item xs={1} sm={1} md={2} lg={2}/>
             </Grid>
             <Grid container className="shift">
                 <Grid item xs={1} sm={1} md={2} lg={2}/>
                 <Grid item xs={10} sm={10} md={8} lg={8}>
-                    <Card title="HOW TO PLAY" question="AT THE END OF THE GAME, THERE WILL BE A FINAL CARD. SEND YOUR PLAYERS A MESSAGE. OPEN ONLY ONCE YOU ALL HAVE LEFT THE CALL."/>
+                    <Card title="HOW TO PLAY" question="level 3 cards are the reflection questions. this level is about reflecting not only on your experiences, but also on yourself."/>
+                </Grid>
+                <Grid item xs={1} sm={1} md={2} lg={2}/>
+            </Grid>
+            <Grid container className="shift">
+                <Grid item xs={1} sm={1} md={2} lg={2}/>
+                <Grid item xs={10} sm={10} md={8} lg={8}>
+                    <Card title="HOW TO PLAY" question="at the end of the game, your group will be presented with a final card with a specified label on it, so please answer the prompt on the final card."/>
+                </Grid>
+                <Grid item xs={1} sm={1} md={2} lg={2}/>
+            </Grid>
+            <Grid container className="shift">
+                <Grid item xs={1} sm={1} md={2} lg={2}/>
+                <Grid item xs={10} sm={10} md={8} lg={8}>
+                    <HeadingCard heading="Disclaimer" peep="none"/>
+                </Grid>
+                <Grid item xs={1} sm={1} md={2} lg={2}/>
+            </Grid>
+            <Grid container className="shift">
+                <Grid item xs={1} sm={1} md={2} lg={2}/>
+                <Grid item xs={10} sm={10} md={8} lg={8}>
+                    <Card title="Disclaimer" question="We acknowledge and give full credit to We’re Not Really Strangers for creating the movement and card game, so please support the original creators for their hard work."/>
                 </Grid>
                 <Grid item xs={1} sm={1} md={2} lg={2}/>
             </Grid>
@@ -115,6 +137,13 @@ export default function Landing(props){
                 <Grid item xs={1} sm={1} md={2} lg={2}/>
                 <Grid item xs={10} sm={10} md={8} lg={8}>
                     <Card title="VERSION 1.0" question="If you experience any issues please contact us with the device you used as well as what the problem was."/>
+                </Grid>
+                <Grid item xs={1} sm={1} md={2} lg={2}/>
+            </Grid>
+            <Grid container className="shift">
+                <Grid item xs={1} sm={1} md={2} lg={2}/>
+                <Grid item xs={10} sm={10} md={8} lg={8}>
+                    <ContactForm/>
                 </Grid>
                 <Grid item xs={1} sm={1} md={2} lg={2}/>
             </Grid>
