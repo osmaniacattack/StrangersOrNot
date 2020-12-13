@@ -72,7 +72,7 @@ export default function Landing(props){
             <Grid container className="shift">
                 <Grid item xs={1} sm={1} md={2} lg={2}/>
                 <Grid item xs={10} sm={10} md={8} lg={8}>
-                    <Card title="HOW TO PLAY" question="LEVEL 1 CARDS ARE PERCEPTION QUESTIONS. THIS LEVEL IS ABOUT GAINING PERSPECTIVE ON WHAT FIRST IMPRESSIONS WE GIVE OFF AND CHALLENGING THE ASUMPTIONS WE MAKE ABOUT OTHERS."/>
+                    <Card title="HOW TO PLAY" question="LEVEL 1 CARDS ARE PERCEPTION QUESTIONS. THIS LEVEL IS ABOUT GAINING PERSPECTIVE ON WHAT FIRST IMPRESSIONS WE GIVE OFF AND CHALLENGING THE ASSUMPTIONS WE MAKE ABOUT OTHERS."/>
                 </Grid>
                 <Grid item xs={1} sm={1} md={2} lg={2}/>
             </Grid>
