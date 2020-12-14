@@ -29,7 +29,7 @@ How to Build the Project:
 Bonus Features:
 - We deployed our website for everyone to use using a service called Vercel. The link is strangers-or-not.vercel.app if you want to check it out!
 - We also implemented a contact form at the botttom of the landing page so that we can get either feedback from our users on what can be improved on the site or new questions from users to add to our question database.
-- We included Google Analytics in our project with Node, and it runs every time someone accesses our site on initial load. We did this to see user engagement on our deployed site for fun. 
+- We included Google Analytics in our project with Node, and it runs every time someone accesses our site on initial load. We did this to see user engagement on our deployed site for fun. For proof, we added a folder called "google_analytics_screenshots" to view data we are tracking on our site.
 
 # Getting Started with Create React App
 
