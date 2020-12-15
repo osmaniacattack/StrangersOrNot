@@ -15,7 +15,7 @@
         max-height: 20rem !important;
         color: #bf0413 !important;
         border-radius: 50px !important;
-        margin: 1% !important;
+        margin: -1% 2% 2% 2% !important;
         text-transform: uppercase !important;
         z-index: 0 !important;
     }
@@ -35,7 +35,7 @@
     .peepOne{
         max-width: 33% !important;
         margin-top: 13vh !important;
-        margin-left: -13vw !important;
+        margin-left: -17vw !important;
         position: absolute !important;
         z-index: 100 !important;
     }
@@ -70,7 +70,7 @@
         max-height: 22rem !important;
         color: #bf0413 !important;
         border-radius: 50px !important;
-        margin: 2% !important;
+        margin: -1% 2% 2% 2% !important;
         text-transform: uppercase !important;
         z-index: 0 !important;
     }
@@ -124,7 +124,7 @@
         max-height: 24rem !important;
         color: #bf0413 !important;
         border-radius: 50px !important;
-        margin: 2% !important;
+        margin: -1% 2% 2% 2% !important;
         text-transform: uppercase !important;
         z-index: 0 !important;
     }
@@ -189,7 +189,7 @@
         max-height: 30rem !important;
         color: #bf0413 !important;
         border-radius: 50px !important;
-        margin: 2% !important;
+        margin: -1% 2% 2% 2% !important;
         text-transform: uppercase !important;
         z-index: 0 !important;
     }
@@ -236,7 +236,7 @@
         z-index: 100 !important;
     }
     .peepTwo{
-        max-width: 15% !important;
+        max-width: 14.5% !important;
         margin-top: 9vh !important;
         margin-left: 40rem !important;
         position: absolute !important;
