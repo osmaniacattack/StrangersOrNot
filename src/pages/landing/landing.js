@@ -136,6 +136,13 @@ export default function Landing(props){
             <Grid container className="shift">
                 <Grid item xs={1} sm={1} md={2} lg={2}/>
                 <Grid item xs={10} sm={10} md={8} lg={8}>
+                    <Card title="VERSION 1.0" question="We are aware that the application may not render correctly on certain Android devices. We are also working on a fix for the dark mode text color."/>
+                </Grid>
+                <Grid item xs={1} sm={1} md={2} lg={2}/>
+            </Grid>
+            <Grid container className="shift">
+                <Grid item xs={1} sm={1} md={2} lg={2}/>
+                <Grid item xs={10} sm={10} md={8} lg={8}>
                     <Card title="VERSION 1.0" question="If you experience any issues please contact us with the device you used as well as what the problem was."/>
                 </Grid>
                 <Grid item xs={1} sm={1} md={2} lg={2}/>
